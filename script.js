@@ -1,6 +1,8 @@
 const email = document.getElementById('email');
 const senha = document.getElementById('senha');
 const botao = document.getElementById('btn');
+const botaoCheck = document.getElementById('agreement');
+const botaoSubmit = document.getElementById('submit-btn');
 
 botao.addEventListener('click', (event) => {
   event.preventDefault();
@@ -10,3 +12,15 @@ botao.addEventListener('click', (event) => {
     alert('Email ou senha inválidos.');
   }
 });
+
+botaoSubmit.disabled = true;
+
+function clicaSubmit() {
+  if (botaoCheck.checked === true) {
+    botaoSubmit.disabled = false;
+  } else {
+    botaoSubmit.disabled = true;
+  }
+}
+
+botaoCheck.addEventListener('click', clicaSubmit);
