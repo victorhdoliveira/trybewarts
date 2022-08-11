@@ -35,3 +35,13 @@ main section #trybewarts-forms-logo {
 #email-casa {
   display: flex;
 }
+
+#family-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#content-section {
+  display:flex;
+  flex-direction: column;
+}
