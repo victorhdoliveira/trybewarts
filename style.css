@@ -27,3 +27,7 @@ main section #trybewarts-forms-logo {
   display: flex;
   height: 500px;
 }
+
+#inputs-section {
+  display: flex;
+}
