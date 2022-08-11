@@ -28,6 +28,10 @@ main section #trybewarts-forms-logo {
   height: 500px;
 }
 
-#inputs-section {
+#nome-sobrenome {
+  display: flex;
+}
+
+#email-casa {
   display: flex;
 }
