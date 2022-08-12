@@ -19,6 +19,7 @@
     </header>
     <main>
         <form action="" id="evaluation-form">
+            <h1 class="form-title">Formulário de Avaliação</h1>
             <div id="nome-sobrenome">
             <input type="text" placeholder="Nome" id="input-name">
             <input type="text" placeholder="Sobrenome" id="input-lastname">
@@ -32,7 +33,8 @@
                 <option value="Pytherina" id="pytherina-house">Pytherina</option>
             </select>
             </div>
-            <section id="family-section">
+            <hr>
+            <section id="family-section" class="options-content">
                 <label for="" id="label-family">Qual sua família?</label>
                 <input type="radio" name="family" value="Frontend" id="frontend">
                 <label for="frontend">Frontend</label>
@@ -41,7 +43,7 @@
                 <input type="radio" name="family" value="FullStack" id="fullstack">
                 <label for="fullstack">Fullstack</label>
             </section>
-            <section id="content-section">
+            <section id="content-section" class="options-content">
                 <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
                 <input type="checkbox" value="HoFs" class="subject" id="hofs">
                 <label for="hofs">HoFs</label>
@@ -56,6 +58,7 @@
                 <input type="checkbox" value="Python" class="subject" id="python">
                 <label for="python">Python</label>
             </section>
+            <hr>
             <section id="valuation-section">
                 <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
                 <input type="radio" name="rate" value="1" id="um">

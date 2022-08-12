@@ -3,14 +3,53 @@
   padding: 0;
 }
 
+body {
+  background-color: whitesmoke;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   background-color: rgb(50, 167, 145);
+  height: 60px;
+}
+
+#trybewarts-header-title {
+  color: white;
+  font-size: 45px;
+  align-items: center;
 }
 
 .trybewarts-login {
   display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+#email , #senha , #btn {
+  padding: 5px;
+  border-radius: 7px;
+  margin: 5px;
+}
+
+#btn {
+  background-color: white;
+  color: rgb(50, 167, 145);
+  font-weight: 900;
+  padding: 5px 15px;
+}
+
+#email:hover {
+  background-color: whitesmoke;
+}
+
+#senha:hover {
+  background-color: whitesmoke;
+}
+
+#btn:hover {
+  background-color: purple;
+  color: white;
 }
 
 #evaluation-form {
@@ -21,6 +60,13 @@
 
 main {
   display: flex;
+  justify-content: space-evenly;
+}
+
+.form-title {
+  padding: 35px 10px;
+  display: flex;
+  justify-content: center;
 }
 
 main section #trybewarts-forms-logo {
@@ -28,12 +74,28 @@ main section #trybewarts-forms-logo {
   height: 500px;
 }
 
-#nome-sobrenome {
-  display: flex;
+#input-name , #input-lastname {
+  padding: 10px;
+  border-radius: 5px;
+  border-color: white;
+  margin: 5px;
 }
 
-#email-casa {
+#input-email , #house {
+  padding: 10px;
+  border-radius: 5px;
+  border-color: white;
+  margin: 5px;
+}
+
+#house {
+  width: 200px;
+  padding: 10px;
+}
+
+#nome-sobrenome , #email-casa {
   display: flex;
+  justify-content: center;
 }
 
 #family-section {
@@ -44,4 +106,9 @@ main section #trybewarts-forms-logo {
 #content-section {
   display: flex;
   flex-direction: column;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
