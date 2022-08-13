@@ -12,6 +12,7 @@ body {
   justify-content: space-between;
   background-color: rgb(50, 167, 145);
   height: 60px;
+  margin-bottom: 50px;
 }
 
 #trybewarts-header-title {
@@ -39,6 +40,14 @@ body {
   padding: 5px 15px;
 }
 
+#submit-btn {
+  background-color: rgb(50, 167, 145);
+  color: white;
+  font-weight: 900;
+  border-radius: 7px;
+  padding: 5px 15px;
+}
+
 #email:hover {
   background-color: whitesmoke;
 }
@@ -52,6 +61,10 @@ body {
   color: white;
 }
 
+#submit-btn:hover {
+  background-color: purple;
+}
+
 #evaluation-form {
   display: flex;
   flex-direction: column;
@@ -63,10 +76,8 @@ main {
   justify-content: space-evenly;
 }
 
-.form-title {
-  padding: 35px 10px;
-  display: flex;
-  justify-content: center;
+hr {
+  margin: 15px;
 }
 
 main section #trybewarts-forms-logo {
@@ -106,6 +117,15 @@ main section #trybewarts-forms-logo {
 #content-section {
   display: flex;
   flex-direction: column;
+}
+
+#textarea {
+  width: 100%;
+  margin: 15px 0 0;
+}
+
+#agreement {
+  padding: 5px;
 }
 
 footer {
