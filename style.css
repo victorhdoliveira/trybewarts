@@ -5,6 +5,7 @@
 
 body {
   background-color: whitesmoke;
+  height: 100%;
 }
 
 .header {
@@ -46,6 +47,7 @@ body {
   font-weight: 900;
   border-radius: 7px;
   padding: 5px 15px;
+  margin: 10px 0;
 }
 
 #email:hover {
@@ -74,6 +76,7 @@ body {
 main {
   display: flex;
   justify-content: space-evenly;
+  height: 800px;
 }
 
 hr {
@@ -109,14 +112,22 @@ main section #trybewarts-forms-logo {
   justify-content: center;
 }
 
-#family-section {
+#options-div {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
 }
 
-#content-section {
+#content-div {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.options-family {
+  margin: 10px;
+}
+
+#label-family {
+  margin-bottom: 10px;
 }
 
 #textarea {
@@ -124,11 +135,16 @@ main section #trybewarts-forms-logo {
   margin: 15px 0 0;
 }
 
-#agreement {
-  padding: 5px;
+
+#agreement-section , #comment-section {
+  margin: 10px 0;
 }
 
 footer {
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: rgb(43, 42, 42);
+  color: white;
+  height: 40px;
 }

@@ -33,30 +33,36 @@
             </select>
             </div>
             <hr>
-            <section id="family-section" class="options-content">
-                <label for="" id="label-family">Qual sua família?</label>
-                <input type="radio" name="family" value="Frontend" id="frontend">
-                <label for="frontend">Frontend</label>
-                <input type="radio" name="family" value="Backend" id="backend">
-                <label for="backend">Backend</label>
-                <input type="radio" name="family" value="FullStack" id="fullstack">
-                <label for="fullstack">Fullstack</label>
+            <div class = "options-content">
+            <section id="family-section">
+                <label for="" id="label-family">Qual sua família?</label><br>
+                <div id="options-div">
+                   <input type="radio" name="family" value="Frontend" id="frontend">
+                   <label for="frontend" class="options-family">Frontend</label>
+                   <input type="radio" name="family" value="Backend" id="backend">
+                   <label for="backend"class="options-family" >Backend</label>
+                   <input type="radio" name="family" value="FullStack" id="fullstack">
+                   <label for="fullstack" class="options-family">Fullstack</label>
+                </div>
             </section>
-            <section id="content-section" class="options-content">
-                <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
-                <input type="checkbox" value="HoFs" class="subject" id="hofs">
-                <label for="hofs">HoFs</label>
-                <input type="checkbox" value="Jest" class="subject" id="jest">
-                <label for="jest">Jest</label>
-                <input type="checkbox" value="Promises" class="subject" id="promises">
-                <label for="promises">Promises</label>
-                <input type="checkbox" value="React" class="subject" id="react">
-                <label for="react">React</label>
-                <input type="checkbox" value="SQL" class="subject" id="sql">
-                <label for="sql">SQL</label>
-                <input type="checkbox" value="Python" class="subject" id="python">
-                <label for="python">Python</label>
+            <section id="content-section">
+                <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label><br>
+                <div id="content-div">
+                    <input type="checkbox" value="HoFs" class="subject" id="hofs">
+                    <label for="hofs" class="options-family">HoFs</label>
+                    <input type="checkbox" value="Jest" class="subject" id="jest">
+                    <label for="jest" class="options-family">Jest</label>
+                    <input type="checkbox" value="Promises" class="subject" id="promises">
+                    <label for="promises" class="options-family">Promises</label>
+                    <input type="checkbox" value="React" class="subject" id="react" >
+                    <label for="react" class="options-family">React</label>
+                    <input type="checkbox" value="SQL" class="subject" id="sql">
+                    <label for="sql" class="options-family">SQL</label>
+                    <input type="checkbox" value="Python" class="subject" id="python">
+                    <label for="python" class="options-family">Python</label>
+            </div>
             </section>
+            </div>
             <hr>
             <section id="valuation-section">
                 <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
@@ -86,12 +92,12 @@
                 <textarea name="" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
                 <span id="counter">500/500</span>
             </section>
+            <section id="submit-section">
+                <button type="submit" id="submit-btn">Enviar</button>
+            </section>
             <section id="agreement-section">
                 <input type="checkbox" name="" id="agreement" value="checked">
                 <label for="" id="label-infos">Você concorda com o uso das informações acima?</label>
-            </section>
-            <section id="submit-section">
-                <button type="submit" id="submit-btn">Enviar</button>
             </section>
         </form>
         <section>

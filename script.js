@@ -7,6 +7,7 @@ const textArea = document.getElementById('textarea');
 const caracteresCounter = document.getElementById('counter');
 const maxNum = 500;
 
+
 // 3
 botao.addEventListener('click', (event) => {
   event.preventDefault();
@@ -36,3 +37,9 @@ textArea.addEventListener('input', () => {
   const counter = maxNum - typeNum;
   caracteresCounter.textContent = `${counter}/500`;
 });
+
+
+const email2 = document.getElementById('input-email');
+
+let emailIpt = oForm.element["input-email"]
+console.log(emailIpt)
